@@ -330,7 +330,7 @@ namespace Downloader___mp3_mp4
         }
 
 
-        //Изпраща WEB заявка в Application слоят на OSI модела и извлича името на песента добавена за изтегляне;
+        //Изпраща заявка и извлича името на песента добавена за изтегляне от HTML кода на страницата;
         public string GetTitle()
         {
             WebRequest nameRequest = HttpWebRequest.Create(URL_input.Text);
