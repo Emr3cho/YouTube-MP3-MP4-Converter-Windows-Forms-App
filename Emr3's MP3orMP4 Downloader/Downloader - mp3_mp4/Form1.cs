@@ -139,7 +139,7 @@ namespace Downloader___mp3_mp4
         }
 
 
-        //Използвайки вградената функция на стака(Last-In-First-Out) попвам последния елемент, и според резултата
+        //Използвайки вградената функция на стака(Last-In-First-Out) попвам последния елемент и според резултата
         //премахвам и елемета от речника;
         private void deleteLastElement_Button_Click(object sender, EventArgs e)
         {
